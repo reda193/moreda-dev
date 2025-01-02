@@ -1,6 +1,6 @@
-#INFOI
+**INFO
 
-Just basic dev website using React and TailwindCSS, and some API using last.fm and letterbox
+**Just basic dev website using React and TailwindCSS, and some API using last.fm and letterbox
 
 
 
