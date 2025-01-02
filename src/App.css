@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ color: white;
+ background-color: #222222;
+ max-width: 1200px;
+ width: 750px;
+ margin: 0 auto;
+ padding: 0 1rem;
+ margin-top: 20px;
+ font-family: 'Roboto Mono', monospace;
+
+}
+
+@media (max-width: 1024px) {
+ body {
+   max-width: 100%;
+   padding: 0 2rem;
+ }
+}
