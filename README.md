@@ -1,3 +1,9 @@
+#INFOI
+
+Just basic dev website using React and TailwindCSS, and some API using last.fm and letterbox
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
