@@ -15,7 +15,7 @@ const Header = () => {
             } catch(error) {
                 console.log('Error:', error);
             }
-        };
+        }; 
         fetchData();
     }, []);
 
@@ -29,9 +29,9 @@ const Header = () => {
             </div>
             <div className="space-y-6 text-lg text-center px-4">
                 <p>
-                    Third year into my Advanced Diploma at Mohawk College for Software Development.
+                <span className="font-semibold text-blue-400">Fullstack Developer</span> with the desire to learn as much as possible. Currently in my final year of the Advanced Diploma program in Software Development at Mohawk College
                 </p>
-                
+
                 <p>
                     Currently working on <span className="font-semibold text-blue-400">Meals 4 Cheap</span>, 
                     obtaining cheapest groceries at your local supermarket and creating meals to best budget!
