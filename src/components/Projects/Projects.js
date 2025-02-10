@@ -36,6 +36,18 @@ const Projects = () => {
     const [expandedImages, setExpandedImages] = useState(null);
     const projects = [
         {
+            name: "LeetDuels - Compeititve LeetCode game",
+            stack: ['Next.js, TypeScript, PostgreSQL, Vercel, Neon.tech, Docker'],
+            description: ['A real-time competitive coding game where users compete against each other to see who can finish quicker, and also more efficient.'],
+            github: "https://github.com/reda193/leetduels",
+            details: [
+                "Building a real-time competitive game which allows two people to compete against eachother to see who can solve questions quicker, and more efficient",
+                "Implementing ELO system to track user's rating, with aaccurate results to implement a ranking system",
+                "Current in progress in very early development"
+            ]
+        
+        },
+        {
             name: "KusaTypes - MonkeyType Clone",
             stack: ['React.js, JavaScript, Node.js, Express.js, MongoDB, DigitalOcean, Zoho'],
             github: "https://github.com/reda193/kusa-types",
@@ -67,6 +79,7 @@ const Projects = () => {
             images: []
 
          },
+    
         {
             name: "LastFM Discord Bot",
             stack: ['JavaScript, Node.js, MySQL, DigitalOcean'],

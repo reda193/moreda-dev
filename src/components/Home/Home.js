@@ -1,6 +1,5 @@
-import { FaLaptopCode, FaNodeJs, FaReact, FaPhp, FaGraduationCap, FaBasketballBall, FaBook, FaFilm, FaGamepad, FaEnvelope } from "react-icons/fa";
-import { SiNextdotjs, SiMongodb, SiExpress } from "react-icons/si";
-
+import { FaLaptopCode, FaPhp, FaGraduationCap, FaBasketballBall, FaBook, FaFilm, FaGamepad, FaEnvelope } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 const Home = () => {
     return (
         <div className="space-y-4">
@@ -8,7 +7,7 @@ const Home = () => {
                 Welcome!
             </p>
             <p className="text-lg">
-                I’m a passionate <span className="font-bold"><FaLaptopCode className="inline-block text-blue-500" /> Fullstack Developer</span> with hands-on experience in building dynamic web applications. Currently, I’m diving deeper into <span className="font-semibold"><SiNextdotjs className="inline-block text-black mx-1" /> Next.js</span> to explore server-side rendering and optimizing web performance, as well as expanding my backend knowledge by learning <span className="font-semibold"><FaPhp className="inline-block text-blue-700 mx-1" /> PHP</span>.
+                I’m just a chill guy, who is also a future <span className="font-bold"><FaLaptopCode className="inline-block text-blue-500" /> Software Engineer</span> with hands-on experience in building dynamic web applications. Currently, I’m diving deeper into <span className="font-semibold"><SiNextdotjs className="inline-block text-black mx-1" /> Next.js and TypeScript</span> to explore server-side rendering and optimizing web performance, as well as expanding my backend knowledge by learning <span className="font-semibold"><FaPhp className="inline-block text-blue-700 mx-1" /> Laravel and PostgreSQL</span>.
             </p>
             <p className="text-lg">
                 I’m a third-year <span className="font-bold"><FaGraduationCap className="inline-block text-purple-500" /> Software Development</span> student at Mohawk College, with plans to graduate in <span className="font-semibold">December 2025</span>. I’m committed to continuously improving my skills and staying updated with the latest technologies in the field.

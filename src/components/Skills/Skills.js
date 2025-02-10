@@ -2,10 +2,10 @@ import { React, useState } from 'react';
 
 const Skills = () => {
     const skills = {
-        languages: ['Java', 'JavaScript', 'Python', 'C#', 'HTML', 'CSS'],
-        frameworks: ['React.js', 'Node.js', 'Nginx', 'Tailwind CSS', 'Pandas', 'NumPy', 'Matplotlib', 'PyQT', 'TensorFlow'],
-        databases: ['MongoDB', 'MySQL', 'Redis'],
-        tools: ['Qt Designer/Creator', 'Selenium', 'DigitalOcean', 'AWS', 'Git', 'Jira', 'VS Code', 'Shell Scripting'],
+        languages: ['Java', 'TypeScript', 'JavaScript', 'Python', 'C#', 'HTML', 'CSS', 'PHP'],
+        frameworks: ['React.js', 'Next.js', 'Node.js', 'Nginx', 'Tailwind CSS', 'Pandas', 'NumPy', 'Matplotlib', 'PyQT', 'TensorFlow'],
+        databases: ['MongoDB', 'MySQL', 'PostgreSQL'],
+        tools: ['Docker', 'Vercel', 'Qt Designer/Creator', 'Selenium', 'DigitalOcean', 'AWS', 'Git', 'Jira', 'VS Code', 'Shell Scripting'],
     };
  
     const [selectedCategory, setSelectedCategory] = useState('languages'); 

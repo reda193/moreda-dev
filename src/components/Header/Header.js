@@ -1,6 +1,5 @@
 import { React, useEffect, useState } from 'react';
 import axios from '../../api/axios';
-import { FaLastfmSquare } from "react-icons/fa";
 import { PiHandWaving } from "react-icons/pi";
 
 const Header = () => {
@@ -33,8 +32,8 @@ const Header = () => {
                 </p>
 
                 <p>
-                    Currently working on <span className="font-semibold text-blue-400">Meals 4 Cheap</span>, 
-                    obtaining cheapest groceries at your local supermarket and creating meals to best budget!
+                    Currently working on <span className="font-semibold text-blue-400">LeetDuels</span>, 
+                    A competitive real-time Leetcode game
                 </p>
             </div>
 

@@ -15,15 +15,15 @@ const About = () => {
 
             <section className="space-y-4">
                 <h1 className="text-2xl font-bold underline underline-offset-4">
-                    Current Project: Meals 4 Cheap
+                    Current Project: LeetDuels
                 </h1>
                 <p className="text-lg">
                     Developing a web application that helps users create budget-friendly meal plans. The platform:
                 </p>
                 <ul className="list-disc ml-6 space-y-2">
-                    <li>Analyzes real-time prices from supermarkets across North America through web scraping</li>
-                    <li>Uses machine learning to recommend affordable, tasty meal combinations based on current prices</li>
-                    <li>Generates personalized meal plans optimized for cost and taste</li>
+                    <li>Building a real-time competitive game which allows two people to compete against eachother to see who can solve questions quicker, and more efficient</li>
+                    <li>Implementing ELO system to track user's rating, with aaccurate results to implement a ranking system</li>
+                    <li>Current in progress in very early development</li>
                 </ul>
                 <p className="italic">
                     Target release: June 2025
